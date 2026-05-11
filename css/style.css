@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: #1e293b;
+    color: white;
+    padding: 2rem;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+section {
+    padding: 2rem;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.progress {
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #2563eb;
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        padding: 1rem;
+    }
+}
