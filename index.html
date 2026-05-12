@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Ahmed El Jouad</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <div class="nav-container">
+      <span class="nav-logo">Ahmed<span>EJ.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#education">Formation</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="hamburger" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+  <header id="hero">
+    <div class="hero-content">
+      <div class="profile-img-wrapper">
+        <img src="assets/profile.jpeg" alt="Photo de profil Ahmed El Jouad" class="profile-img" />
+      </div>
+      <h1 class="hero-name">Ahmed El Jouad</h1>
+      <p class="hero-title">Étudiant en Mathématiques Informatique (MI) · FSSM Marrakech</p>
+      <div class="hero-contacts">
+        <a href="mailto:a.eljouad8666@uca.ac.ma">
+          <i class="fas fa-envelope"></i> a.eljouad8666@uca.ac.ma
+        </a>
+        <a href="https://linkedin.com/in/ahmedeljouad" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/ahmedeljouad" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+      <a href="#about" class="btn-scroll">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </header>
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">À Propos</h2>
+      <div class="about-content">
+        <p>
+          Je suis Ahmed El Jouad, étudiant en deuxième année de la filière
+          Mathématiques Informatique (MI) à la Faculté des Sciences Semlalia
+          (FSSM) de Marrakech. Passionné par la programmation depuis le lycée,
+          j'ai développé mes compétences en langages C et C++ durant mon
+          parcours universitaire.
+        </p>
+        <p>
+          En parallèle de ma formation académique, j'ai appris le développement
+          web de manière autodidacte, maîtrisant HTML, CSS, JavaScript et MySQL.
+          J'aime résoudre des problèmes algorithmiques et créer des applications
+          web fonctionnelles et esthétiques.
+        </p>
+        <p>
+          Mon objectif est de combiner mes bases solides en mathématiques avec
+          mes compétences en informatique pour évoluer dans le domaine du
+          développement logiciel et contribuer à des projets innovants.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Compétences</h2>
+      <div class="tabs-wrapper">
+        <div class="tabs-nav">
+          <button class="tab-btn active" data-tab="tech">Techniques</button>
+          <button class="tab-btn" data-tab="soft">Personnelles</button>
+        </div>
+        <div class="tab-content active" id="tab-tech">
+          <div class="skills-grid">
+            <div class="skill-item" data-level="85">
+              <div class="skill-header"><span>Langage C</span><span class="skill-percent">85%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 85%"></div></div>
+            </div>
+            <div class="skill-item" data-level="80">
+              <div class="skill-header"><span>C++</span><span class="skill-percent">80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 80%"></div></div>
+            </div>
+            <div class="skill-item" data-level="85">
+              <div class="skill-header"><span>HTML5</span><span class="skill-percent">85%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 85%"></div></div>
+            </div>
+            <div class="skill-item" data-level="75">
+              <div class="skill-header"><span>CSS3</span><span class="skill-percent">75%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 75%"></div></div>
+            </div>
+            <div class="skill-item" data-level="70">
+              <div class="skill-header"><span>JavaScript</span><span class="skill-percent">70%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 70%"></div></div>
+            </div>
+            <div class="skill-item" data-level="65">
+              <div class="skill-header"><span>MySQL</span><span class="skill-percent">65%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 65%"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content" id="tab-soft">
+          <div class="soft-skills">
+            <span class="tag">Travail en équipe</span>
+            <span class="tag">Résolution de problèmes</span>
+            <span class="tag">Autonomie</span>
+            <span class="tag">Curiosité intellectuelle</span>
+            <span class="tag">Adaptabilité</span>
+            <span class="tag">Esprit analytique</span>
+            <span class="tag">Gestion du temps</span>
+            <span class="tag">Rigueur mathématique</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title">Formation</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <div class="acc-left">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <strong>DEUG — Mathématiques Informatique (MI)</strong>
+                <span>Faculté des Sciences Semlalia (FSSM) — Marrakech</span>
+              </div>
+            </div>
+            <span class="acc-date">2024 — Présent</span>
+            <i class="fas fa-chevron-down acc-icon"></i>
+          </button>
+          <div class="accordion-body">
+            <p>Formation universitaire en deuxième année combinant les mathématiques fondamentales et l'informatique appliquée.</p>
+            <ul>
+              <li>Programmation en C et C++ (POO)</li>
+              <li>Algorithmique et structures de données</li>
+              <li>Bases de données relationnelles (MySQL)</li>
+              <li>Développement web (HTML, CSS, JavaScript)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <div class="acc-left">
+              <i class="fas fa-school"></i>
+              <div>
+                <strong>Baccalauréat Sciences Physiques</strong>
+                <span>Marrakech</span>
+              </div>
+            </div>
+            <span class="acc-date">2024</span>
+            <i class="fas fa-chevron-down acc-icon"></i>
+          </button>
+          <div class="accordion-body">
+            <p>Obtention du baccalauréat option Sciences Physiques.</p>
+            <ul>
+              <li>Option : Sciences Physiques</li>
+              <li>Solides bases en mathématiques et physique</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <div class="acc-left">
+              <i class="fas fa-certificate"></i>
+              <div>
+                <strong>Formation autodidacte en développement web</strong>
+                <span>Ressources en ligne · YouTube · Documentation</span>
+              </div>
+            </div>
+            <span class="acc-date">2023 — Présent</span>
+            <i class="fas fa-chevron-down acc-icon"></i>
+          </button>
+          <div class="accordion-body">
+            <p>Apprentissage en parallèle du cursus universitaire pour maîtriser les technologies du développement web moderne.</p>
+            <ul>
+              <li>HTML5 & CSS3</li>
+              <li>JavaScript & jQuery</li>
+              <li>MySQL</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Expériences & Projets</h2>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="c">C/C++</button>
+        <button class="filter-btn" data-filter="db">Base de données</button>
+      </div>
+      <div id="react-projects"></div>
+    </div>
+  </section>
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper">
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom">
+            <span class="field-error" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="votre@email.com">
+            <span class="field-error" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Votre message..."></textarea>
+            <span class="field-error" id="message-error"></span>
+          </div>
+          <button type="submit" class="btn-submit">
+            <i class="fas fa-paper-plane"></i> Envoyer le message
+          </button>
+        </form>
+        <div id="success-message" class="form-success" style="display: none;">
+          <i class="fas fa-check-circle"></i>
+          Message envoyé avec succès !<br>
+          <small>Merci ! Je vous répondrai dans les plus brefs délais.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>
+      &copy; 2026 Ahmed El Jouad ·
+      FSSM Marrakech ·
+      Conçu avec <i class="fas fa-heart" style="color:#e74c3c"></i> et du code
+    </p>
+    <div class="footer-links">
+      <a href="https://github.com/ahmedeljouad" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/ahmedeljouad" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script type="text/babel" src="components/app.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
